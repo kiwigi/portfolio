@@ -20,6 +20,17 @@
     -webkit-text-stroke-color: #ff57a6;
 }
 
+.secTitle{
+    font-family: FredokaOne-Regular;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 15%;
+    color: #FF93C5;
+    padding-bottom: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff57a6;
+}
+
 .simpleBox{
     width: 90%;
     max-width: 950px;
@@ -30,6 +41,24 @@
     justify-content: center;
     border: 1px solid #ff57a6;
     background:radial-gradient( 900px,#ff71b3,transparent);
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.simpleBox2{
+    /* margin-top: 200px; */
+    width: 90%;
+    max-width: 3000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border: 1px solid #ff57a6;
+    background:radial-gradient( 900px,#fdaad1,transparent);
     background-color: white;
     border-radius: 25px;
     display: flex;

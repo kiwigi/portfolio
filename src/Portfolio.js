@@ -5,6 +5,24 @@ import selfPic from './me.png'
 
 function Portfolio() {
 
+  const dividorStyle = {
+    width: '99%',
+    height: '50px',
+    background: '#ffd6e9',
+    display: 'block',
+    marginTop: '8%',
+    overflow: 'hidden',
+    fontFamily: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif',
+    textAlign: 'center',
+    fontSize: '20px',
+    color: '#424242',
+    position: 'sticky',
+    top: "0",
+    // border: '1px solid #ff57a6'
+
+    
+}
+
   const pageStyle = {
     justifyContent: 'center'
   }
@@ -21,6 +39,18 @@ function Portfolio() {
                 Hi! I'm Mar. I will be graduating from the University of Calgary in December, 2022. I'm passionate about web development and UX design.
           </div>
       
+      </div>
+      <div style={dividorStyle}> </div>
+
+      <div className='secTitle'> Portfolio </div>
+      <div className='simpleBox2'>
+        <img className='selfPic' src={selfPic}></img>
+        <img className='selfPic' src={selfPic}></img>
+        <img className='selfPic' src={selfPic}></img>
+        <img className='selfPic' src={selfPic}></img>
+        <img className='selfPic' src={selfPic}></img>
+        <img className='selfPic' src={selfPic}></img>
+        <img className='selfPic' src={selfPic}></img>
       </div>
     </div>
   );
