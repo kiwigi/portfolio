@@ -1,0 +1,50 @@
+.activeTrue{
+    text-decoration: none;
+    color: #1c1b1b;
+    
+}
+.activeFalse{
+    text-decoration: none;
+    color: #696969;
+}
+
+
+.myName{
+    font-family: FredokaOne-Regular;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2%;
+    color: #FF93C5;
+    padding-bottom: 50px;
+}
+
+.simpleBox{
+    width: 90%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    background:radial-gradient( 900px,#FF93C5,transparent);
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.selfPic{
+    padding: 1%;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'FredokaOne-Regular'; /*a name to be used later*/
+    src: url('./FredokaOne-Regular.ttf'); /*URL to font*/
+}
