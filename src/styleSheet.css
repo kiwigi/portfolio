@@ -16,17 +16,21 @@
     margin-top: 2%;
     color: #FF93C5;
     padding-bottom: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff57a6;
 }
 
 .simpleBox{
     width: 90%;
-    height: 600px;
+    max-width: 900px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     /* margin-top: auto;
     margin-bottom: auto; */
-    background:radial-gradient( 900px,#FF93C5,transparent);
+    background:radial-gradient( 900px,#ff71b3,transparent);
     background-color: white;
     border-radius: 25px;
     display: flex;
@@ -40,11 +44,26 @@
     max-height: 250px;
     border-radius: 50%;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-bottom: 10%;
     flex-direction: column;
+}
+
+.selfIntro{
+    font-family: FredokaOne-Regular;
+    color: rgb(255, 255, 255);
+    max-width: 500px;
+    padding: 2%;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(104, 103, 103);
 }
 
 @font-face {
     font-family: 'FredokaOne-Regular'; /*a name to be used later*/
     src: url('./FredokaOne-Regular.ttf'); /*URL to font*/
 }
+

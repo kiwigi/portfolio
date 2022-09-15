@@ -3,11 +3,11 @@ import "./styleSheet.css"
 const Navbar = (props) =>{
 
     const navBarStyle = {
-        width: '100%',
+        width: '99%',
+        height: '100px',
         background: '#ffd6e9',
-        marginLeft: '-10px',
+        marginLeft: '-15px',
         marginTop: '-10px',
-        // marginRight: '-10px',
         overflow: 'hidden',
         fontFamily: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif',
         textAlign: 'center',
@@ -21,7 +21,9 @@ const Navbar = (props) =>{
     const categoryStyle = {
         float: 'right',
         padding: '1.5%',
-        marginRight: '50px',
+        marginTop: '1%',
+        marginBottom: '1%',
+        paddingRight: '50px',
         display: 'inline',
         
         

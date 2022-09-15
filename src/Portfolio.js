@@ -17,7 +17,9 @@ function Portfolio() {
       <div className='myName'> MARTHA IBARRA</div>
       <div className='simpleBox'> 
           <img className='selfPic' src={selfPic}></img>
-          <div className='selfIntro' src={selfPic}></div>
+          <div className='selfIntro'>
+                Hi! I'm Mar. I will be graduating from the University of Calgary in December 2022. I'm passionate about web development and UX design.
+          </div>
       
       </div>
     </div>
