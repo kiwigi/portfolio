@@ -30,7 +30,7 @@ function About() {
 
   return (
     <div>
-       <Navbar isResumeActive={'activeTrue'} isPortfolioActive={'activeFalse'} isAboutActive={'activeFalse'}/>
+       <Navbar isResumeActive={'activeFalse'} isPortfolioActive={'activeFalse'} isAboutActive={'activeTrue'}/>
       <div style={pageStyle}>
       <div style={aboutContainer}>
         <img src={aboutPic} className='aboutPic'/>

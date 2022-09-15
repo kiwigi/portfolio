@@ -15,6 +15,7 @@ const Navbar = (props) =>{
         color: '#424242',
         position: 'sticky',
         top: "0",
+        // border: '1px solid #ff57a6'
    
         
     }

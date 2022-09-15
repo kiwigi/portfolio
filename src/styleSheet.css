@@ -1,6 +1,6 @@
 .activeTrue{
     text-decoration: none;
-    color: #1c1b1b;
+    color: #ff429a;
     
 }
 .activeFalse{
@@ -22,14 +22,13 @@
 
 .simpleBox{
     width: 90%;
-    max-width: 900px;
+    max-width: 950px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    /* margin-top: auto;
-    margin-bottom: auto; */
+    border: 1px solid #ff57a6;
     background:radial-gradient( 900px,#ff71b3,transparent);
     background-color: white;
     border-radius: 25px;
