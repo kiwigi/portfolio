@@ -3,28 +3,29 @@ import "./styleSheet.css"
 const Navbar = (props) =>{
 
     const navBarStyle = {
-        width: '99%',
+        width: '100%',
         height: '100px',
         background: '#ffd6e9',
-        marginLeft: '-15px',
+        marginLeft: '-10px',
         marginTop: '-10px',
-        overflow: 'hidden',
+        marginBottom: '-10px',
         fontFamily: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif',
-        textAlign: 'center',
         fontSize: '20px',
         color: '#424242',
         position: 'sticky',
         top: "0",
+        position: "fixed"
         // border: '1px solid #ff57a6'
    
         
     }
     const categoryStyle = {
         float: 'right',
-        padding: '1.5%',
-        marginTop: '1%',
-        marginBottom: '1%',
-        paddingRight: '50px',
+        // padding: '1%',
+        marginTop: '3%',
+        marginBottom: '3%',
+        textAlign: 'center',
+        paddingRight: '100px',
         display: 'inline',
         
         
@@ -43,7 +44,7 @@ const Navbar = (props) =>{
 
 
     return <div>     
-     <ul style= {navBarStyle}>
+     <div style= {navBarStyle}>
         {/* <a href='../' style = {homeCategoryStyle}>
           Home
         </a> */}
@@ -59,7 +60,7 @@ const Navbar = (props) =>{
         <a className={props.isPortfolioActive} href='./Portfolio' style = {categoryStyle}>
           Portfolio
         </a>
-     </ul>
+     </div>
     </div>
     
 }

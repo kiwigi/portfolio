@@ -7,17 +7,15 @@ function Portfolio() {
 
   const dividorStyle = {
     width: '99%',
-    height: '50px',
-    background: '#ffd6e9',
-    display: 'block',
-    marginTop: '8%',
+    height: '60px',
+    background: 'radial-gradient( 700px,#ff71b3,transparent)',
+    margin: 'auto',
+    marginTop: '15%',
     overflow: 'hidden',
-    fontFamily: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif',
     textAlign: 'center',
     fontSize: '20px',
     color: '#424242',
-    position: 'sticky',
-    top: "0",
+    
     // border: '1px solid #ff57a6'
 
     
@@ -33,16 +31,23 @@ function Portfolio() {
       <Navbar isResumeActive={'activeFalse'} isPortfolioActive={'activeTrue'} isAboutActive={'activeFalse'}/>
       <title> Martha Ibarra </title>
       <div className='myName'>  MARTHA IBARRA </div>
+     
       <div className='simpleBox'> 
+          
           <img className='selfPic' src={selfPic}></img>
+          
           <div className='selfIntro'>
                 Hi! I'm Mar. I will be graduating from the University of Calgary in December, 2022. I'm passionate about web development and UX design.
           </div>
       
       </div>
-      <div style={dividorStyle}> </div>
+      
+      <div style={dividorStyle}> 
+        
+        <div className='secTitle'> Portfolio </div>
+      
+      </div>
 
-      <div className='secTitle'> Portfolio </div>
       <div className='simpleBox2'>
         <img className='selfPic' src={selfPic}></img>
         <img className='selfPic' src={selfPic}></img>

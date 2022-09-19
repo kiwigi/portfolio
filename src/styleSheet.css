@@ -13,7 +13,7 @@
     font-family: FredokaOne-Regular;
     font-size: 70px;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 150px;
     color: #FF93C5;
     padding-bottom: 50px;
     -webkit-text-stroke-width: 1px;
@@ -22,12 +22,13 @@
 
 .secTitle{
     font-family: FredokaOne-Regular;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
-    margin-top: 15%;
-    color: #FF93C5;
+    /* margin-top: 15%; */
+    /* color: #FF93C5; */
+    color: white;
     padding-bottom: 50px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #ff57a6;
 }
 
@@ -56,6 +57,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
     justify-content: center;
     border: 1px solid #ff57a6;
     background:radial-gradient( 900px,#fdaad1,transparent);
