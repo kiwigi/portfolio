@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Created using React, HTML, JavaScript and CSS
+Created using React, HTML, JavaScript and CSS.
 Currently under development!
 
 ## Todo: 
