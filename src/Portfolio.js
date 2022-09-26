@@ -1,7 +1,9 @@
 
 import Navbar from './Navbar'
 import selfPic from './me.png'
-
+import Project from './Project'
+import tgcc from "./tgcc.png"
+import PortfolioProj1 from "./PortfolioProj1"
 
 function Portfolio() {
 
@@ -49,13 +51,9 @@ function Portfolio() {
       </div>
 
       <div className='simpleBox2'>
-        <img className='selfPic' src={selfPic}></img>
-        <img className='selfPic' src={selfPic}></img>
-        <img className='selfPic' src={selfPic}></img>
-        <img className='selfPic' src={selfPic}></img>
-        <img className='selfPic' src={selfPic}></img>
-        <img className='selfPic' src={selfPic}></img>
-        <img className='selfPic' src={selfPic}></img>
+        <Project projLink='./PortfolioProj1' projTitle='Vibes For Your Tasks' projImgSrc={tgcc} projDesc={'This is a simple button application.'}/>
+ 
+
       </div>
     </div>
   );

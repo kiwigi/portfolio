@@ -4,8 +4,9 @@ import Home from './Home'
 import About from './About'
 import Portfolio from './Portfolio'
 import Resume from './Resume'
+import PortfolioProj1 from "./PortfolioProj1"
 import "./styleSheet.css"
-import aboutPic from './meirl.jpeg'
+
 
 
 function App() {

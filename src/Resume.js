@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div>
       <Navbar isResumeActive={'activeTrue'} isPortfolioActive={'activeFalse'} isAboutActive={'activeFalse'}/>
-      this is the Resume page
+      <div>this is the Resume page</div>
     </div>
   );
 }

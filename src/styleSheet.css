@@ -60,8 +60,9 @@
     margin-top: 100px;
     justify-content: center;
     border: 1px solid #ff57a6;
-    background:radial-gradient( 900px,#fdaad1,transparent);
-    background-color: white;
+    background: #ffebf4;
+    /* background:radial-gradient( 900px,#fdaad1,transparent); */
+    /* background-color: white; */
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
