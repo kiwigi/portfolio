@@ -2,6 +2,7 @@
 import Navbar from './Navbar'
 import selfPic from './me.png'
 import Project from './Project'
+import vfyr from "./vfyr.png"
 import tgcc from "./tgcc.png"
 import PortfolioProj1 from "./PortfolioProj1"
 
@@ -30,7 +31,7 @@ function Portfolio() {
 
   return (
     <div style={pageStyle}>
-      <Navbar isResumeActive={'activeFalse'} isPortfolioActive={'activeTrue'} isAboutActive={'activeFalse'}/>
+      <Navbar isHomeActive={'activeTrue'}isResumeActive={'activeFalse'} isPortfolioActive={'activeFalse'} isAboutActive={'activeFalse'}/>
       <title> Martha Ibarra </title>
       <div className='myName'>  MARTHA IBARRA </div>
      
@@ -44,15 +45,16 @@ function Portfolio() {
       
       </div>
       
-      <div style={dividorStyle}> 
+      <div id = 'projects' style={dividorStyle}> 
         
-        <div className='secTitle'> Portfolio </div>
+        <div className='secTitle'> Projects </div>
       
       </div>
 
       <div className='simpleBox2'>
-        <Project projLink='./PortfolioProj1' projTitle='Vibes For Your Tasks' projImgSrc={tgcc} projDesc={'This is a simple button application.'}/>
- 
+        <Project projLink='./PortfolioProj1' projTitle='SpongeBob Task Tracker' projImgSrc={vfyr} projDesc={'This is a simple button application that plays music for the duration of a task.'}/>
+        <Project projLink='./Tgcc' projTitle='The Global Climate Crisis' projImgSrc={tgcc} projDesc={'A static poster-like website about climate change.'}/>
+
 
       </div>
     </div>

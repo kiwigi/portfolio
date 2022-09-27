@@ -5,8 +5,10 @@ import Navbar from './Navbar'
 function Resume() {
   return (
     <div>
-      <Navbar isResumeActive={'activeTrue'} isPortfolioActive={'activeFalse'} isAboutActive={'activeFalse'}/>
-      <div>this is the Resume page</div>
+      <Navbar isHomeActive={'activeFalse'} isResumeActive={'activeTrue'} isPortfolioActive={'activeFalse'} isAboutActive={'activeFalse'}/>
+      <div className='simpleBox3'>
+            <div className='secTitle'> Under construction </div>
+        </div>
     </div>
   );
 }
