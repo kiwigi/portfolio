@@ -4,7 +4,7 @@ const Navbar = (props) => {
 
   const navBarStyle = {
     width: '100vw',
-    height: '100px',
+    height: '80px',
     background: '#ffc7e1',
     fontFamily: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif',
     fontSize: '23px',
@@ -27,11 +27,15 @@ const Navbar = (props) => {
 
   const categoryStyle = {
     textDecoration: 'none',
+    marginTop: 'auto',
+    marginBottom: 'auto'
 
   }
   const homeCategoryStyle = {
     textDecoration: 'none',
     flexGrow: 1,
+    marginTop: 'auto',
+    marginBottom: 'auto'
 
   }
 

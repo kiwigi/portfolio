@@ -21,6 +21,7 @@ function Project(props) {
         flexWrap: "wrap",
         textDecoration: "none",
         color: "#242424",
+        boxShadow: "10px 10px 15px #b8b8b8"
         
      
     }
