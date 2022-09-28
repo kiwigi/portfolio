@@ -43,12 +43,17 @@ const Navbar = (props) => {
   return <div>
     <div style={navBarStyle}>
       <ul style={ulStyle}>
+        
         <li style={homeCategoryStyle}>
           <a className={props.isHomeActive} href='./' >
             HOME
           </a>
         </li>
-
+        <li style={categoryStyle}>
+          <a className={props.isPortfolioActive} href='/#projects' >
+            PORTFOLIO
+          </a>
+        </li>
         <li style={categoryStyle}>
           <a className={props.isResumeActive} href='./Resume' >
             RESUME
@@ -59,11 +64,7 @@ const Navbar = (props) => {
             ABOUT
           </a>
         </li>
-        <li style={categoryStyle}>
-          <a className={props.isPortfolioActive} href='/#projects' >
-            PORTFOLIO
-          </a>
-        </li>
+
       </ul>
     </div>
   </div>

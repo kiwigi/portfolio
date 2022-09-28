@@ -23,6 +23,10 @@ function PortfolioProj1() {
   return (
     <div>
       <Navbar isHomeActive={'activeFalse'} isResumeActive={'activeFalse'} isPortfolioActive={'activeTrue'} isAboutActive={'activeFalse'}/>
+
+      <div className='projPageTitle'> SpongeBob Task Tracker</div>
+
+   
       <div className='simpleBox3'>
       <div className='ProjTitle'> Project Description: </div>
       <div className='projText'>Project 1 focuses on interacting with a button that is catered towards a specific character. We chose to center our button around the fictional character we all know and love, SpongeBob. The “SpongeBob Task Tracker” is an interactive application that SpongeBob uses to time the duration of his common daily tasks while simultaneously listening to his favorite tunes. Through different task buttons SpongeBob can listen to music for each task, once the music stops playing, he knows there is no more time allotted in his day for that task.</div>        
@@ -75,10 +79,16 @@ function PortfolioProj1() {
         <div className='ProjTitle'> Demo Video: </div>
         <iframe width="854"  height="480" src="https://www.youtube.com/embed/JqFgT-a2bJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {/* <div className='ProjTitle'> Final Product: </div> */}
+        <div className='ProjTitle'> My Contributions: </div>
+        <div className='sketchDesc'> For this project, I contributed through my sketches and ideas like the rest of the team. In addition to this, I made the mockup for the task page and worked on the CSS and JavaScript for the site. Lastly, I also edited the demo video for the project.</div>
         <a style={
             {fontSize: '40px', padding: '50px', color:'#ff57a6'}
         } href= 'https://purrfect-pepper-headstand.glitch.me/'> Click here to go to the website! </a>
+        <a style={
+            {fontSize: '25px', padding: '50px', color:'#696969'}
+        }href='https://glitch.com/edit/#!/purrfect-pepper-headstand'>Source code</a>
         </div>
+        
 
       
     </div>

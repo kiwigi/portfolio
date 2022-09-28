@@ -103,7 +103,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 30px;
     justify-content: center;
     border: 1px solid #ff57a6;
@@ -128,9 +128,13 @@ body {
 }
 .picSquare{
     padding: 1%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 25px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     /* margin-top: 10%;
     margin-bottom: 10%; */
     flex-direction: column;
@@ -169,6 +173,19 @@ body {
     padding-bottom: 30px;
 
 }
+.projPageTitle{
+    font-family: FredokaOne-Regular;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px; 
+    margin-bottom: 10px; 
+    /* color: #FF93C5; */
+    color: #ff57a6;
+    padding-bottom: 20px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #ff57a6;
+}
+
 .ProjTitle{
     font-family: Century Gothic, CenturyGothic,AppleGothic,sans-serif;
     font-size: 40px;
