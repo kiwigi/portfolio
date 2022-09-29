@@ -31,7 +31,7 @@ function PortfolioProj1() {
       <div className='ProjTitle'> Project Description: </div>
       <div className='projText'>Project 1 focuses on interacting with a button that is catered towards a specific character. We chose to center our button around the fictional character we all know and love, SpongeBob. The “SpongeBob Task Tracker” is an interactive application that SpongeBob uses to time the duration of his common daily tasks while simultaneously listening to his favorite tunes. Through different task buttons SpongeBob can listen to music for each task, once the music stops playing, he knows there is no more time allotted in his day for that task.</div>        
       <div className='ProjTitle'> Initial sketches: </div>
-      <div className='projText'>To start the project off, each team member was tasked with creating 10 concept sketches each. For this project, the main idea was a button. </div>
+      <div className='projText'>Each member of our team came up with 10 initial sketches. When we created the initial sketches, we were not aware of the project requirement to be centered around a character. Therefore, all our initial sketches are based upon ideas and interactions we individually felt were entertaining, useful, and intriguing.</div>
       <img className='sketch' src={s1}></img>
       <div className='descContainer'>
         <div className='sketchDesc'> #1: My first sketch is a simple button that counts how many cups of water you drink a day. Each button press will add 1 cup to the tally, the longer you hold the button, the more that the cup gets filled. At the end of the day, a user would end up with a tally of how many cups they have drank. </div>
@@ -47,13 +47,15 @@ function PortfolioProj1() {
       <img className='sketch' src={s2}></img>
       <div className='sketchDesc'> #8: My eighth idea is based on how satisfying it is to pop bubble wrap. This idea would be executed to be used on a smartphone or tablet with haptic feedback. Each button will look like a bubble and when pressed, the button will generate some sort of haptic feedback and a popping sound and popping animation will also be played. The haptic feedback on the iPhone for example is very impressive and an application like this could work well on it. </div>
 
-      <div className='descContainer'>
+      {/* <div className='descContainer'> */}
         <div className='sketchDesc'> #9 : My ninth idea is like other productivity apps that force you to be productive by limiting distractions coming from your phone. Here you have a simple button on the phone screen and when pressed, the phone gets locked making you unable to use the phone for a certain amount of time.</div>
         <div className='sketchDesc'> #10: My tenth and final idea is just a dress up game. Each piece of clothing is a button that once clicked will appear on the character. </div>
-      </div>
+      {/* </div> */}
+      <div className='projText'> On September 16, 2022, our group had a team meeting to share and discuss which idea we wanted to pursue. The meeting began with each member presenting the 10 initial sketches they created. Once all ideas had been shared, we each voiced which sketches presented by others in the group we thought were exceptional and why. After collecting five of our best ideas, we conducted a google forms vote to see which idea was the favorite. We came to a tie between Alexis’s routine task tracker and Kathryn’s internal time tester. We ran another google forms for the tie, and the results showed we all were ambitious towards Alexis’s routine task tracker. By voting through google forms each member of the team was able to voice their opinion anonymously without being influenced and enticed to choose an option.</div>
+
       <div className='ProjTitle'> 10 Detailed Sketches: </div>
 
-      <div className='projText'> For the next step of the project, my team and I discussed our ideas with one another and decided on which idea to do. We ended up going with my teammate’s idea. The idea was basically a way to time tasks and a way to make tasks more enjoyable with the help of music. The user would have buttons for different tasks, and each task would take a certain amount of time. For example, “brush teeth” will take 3 minutes and so on. When the user would press on the” brush teeth” button, the application would begin to play a song for the duration of the task. In this example, it would play a 3-minute song. With this project idea in mind, each teammate was tasked with making their own detailed sketches for a total of 10 detailed team sketches.</div>
+      <div className='projText'> With the project idea we decided on in mind, each teammate was tasked with making their own detailed sketches for a total of 10 detailed team sketches.</div>
       <img className='sketch' src={ds1}></img>
       <div className='sketchDesc'> For my sketches I focused on creating more detailed versions of the UI. My first detailed sketch is for a website. In the homepage, there are several task buttons. Each button will display the name of the task. Once you click on a task button you will be taken to a 2nd page containing an audio player. That will display an image of the album, and a bar showing the duration of the song. There is also a back button at the top left corner to go back to the tasks page. On the task page there is also a button that allows a user to add a new task. Pressing this button takes the user to a new page where they can add the name of the task, the duration of the task, and what kind of audio they want to play during this task. The menu would show song, playlist, or podcast as options. Once the user presses done, the task gets added to the main task page.</div>
       <div className='sketchDesc'> My second detailed sketch I thought about what the first sketch was missing. The first sketch might be a bit too overwhelming if there were many tasks. To fix this, the second sketch sorts tasks by categories and adds an icon to each task. This would hopefully help the user browse through their tasks better and easier when there are many tasks present. Once a task has been selected, again the player window will pop up. The player window looks very similar to the one on sketch one except for it displaying a playlist instead of a singular song and the progress bar now shows the progress of the entire playlist.</div>
@@ -77,7 +79,7 @@ function PortfolioProj1() {
         </a>
         </div> */}
         <div className='ProjTitle'> Demo Video: </div>
-        <iframe width="854"  height="480" src="https://www.youtube.com/embed/JqFgT-a2bJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="1024"  height="576" src="https://www.youtube.com/embed/JqFgT-a2bJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {/* <div className='ProjTitle'> Final Product: </div> */}
         <div className='ProjTitle'> My Contributions: </div>
         <div className='sketchDesc'> For this project, I contributed through my sketches and ideas like the rest of the team. In addition to this, I made the mockup for the task page and worked on the CSS and JavaScript for the site. Lastly, I also edited the demo video for the project.</div>
@@ -86,7 +88,7 @@ function PortfolioProj1() {
         } href= 'https://purrfect-pepper-headstand.glitch.me/'> Click here to go to the website! </a>
         <a style={
             {fontSize: '25px', padding: '50px', color:'#696969'}
-        }href='https://glitch.com/edit/#!/purrfect-pepper-headstand'>Source code</a>
+        }href='https://glitch.com/edit/#!/purrfect-pepper-headstand'>Click here to see the source code</a>
         </div>
         
 

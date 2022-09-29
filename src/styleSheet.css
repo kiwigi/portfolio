@@ -31,6 +31,12 @@ body {
     border: 0;
 }
 
+iframe {
+    justify-content: center;
+    padding: 80px;
+
+}
+
 .myName{
     font-family: FredokaOne-Regular;
     font-size: 70px;

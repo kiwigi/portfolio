@@ -7,6 +7,7 @@ import Resume from './Resume'
 import PortfolioProj1 from "./PortfolioProj1"
 import Tgcc from "./Tgcc"
 import "./styleSheet.css"
+import {  Link } from "react-router-dom";
 
 
 
