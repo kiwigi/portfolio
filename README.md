@@ -5,8 +5,8 @@ Currently under development!
 
 ## Todo: 
 
-- Add 'home' to Navbar
-- Populate portfolio with photos and descriptions
-- Make a more detailed project view
-- Create 'about' page
-- Create 'resume' page
+- *** MAKE RESPONSIVE *** 
+- setup react router
+- finish about and resume pages
+- add more projects & create writeups for said projects
+
