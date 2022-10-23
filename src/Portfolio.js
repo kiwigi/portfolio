@@ -52,8 +52,8 @@ function Portfolio() {
       </div>
 
       <div className='simpleBox2'>
+        <Project projLink='./BobaLockscreen' projTitle='Bubble Tea Lockscreen' projImgSrc={''} projDesc={'This is a web application meant to simulate a smartphone lock screen. This one uses the accelerometer of the smartphone and requires the user to physically move their device in order to interact with it. For this lock screen, your password is your favourite bubble tea order. First, pick your drink of choice and mix it until the desired result is achieved.  Shake your drink (via shaking your phone) to mix it until it\'s just right- but be sure not to under or overmix or your order will be all wrong!  When you are done mixing and ready to unlock, stab the straw into your drink (via swinging your phone in a swift downwards motion).  If your drink is correct, you will be permitted to enter.'}/>
         <Project projLink='./PortfolioProj1' projTitle='SpongeBob Task Tracker' projImgSrc={vfyr} projDesc={'This is a simple button application that plays music for the duration of a task.'}/>
-        <Project projLink='./Tgcc' projTitle='The Global Climate Crisis' projImgSrc={tgcc} projDesc={'A static poster-like website about climate change.'}/>
 
 
       </div>

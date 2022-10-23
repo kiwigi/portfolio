@@ -5,6 +5,7 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Resume from './Resume'
 import PortfolioProj1 from "./PortfolioProj1"
+import BobaLockscreen from "./BobaLockscreen"
 import Tgcc from "./Tgcc"
 import "./styleSheet.css"
 import {  Link } from "react-router-dom";
@@ -27,6 +28,8 @@ function App() {
       case '/PortfolioProj1':
             currScreen = <PortfolioProj1 />
           break;
+      case '/BobaLockscreen':
+            currScreen = <BobaLockscreen />
       case '/Tgcc':
             currScreen = <Tgcc />
           break;
