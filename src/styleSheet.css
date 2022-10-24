@@ -37,6 +37,28 @@ iframe {
 
 }
 
+.carousel {
+    width:900px;
+ 
+    margin: auto;
+    padding: 50px;
+    background-color: #fee2f3;
+    border-radius: 50px;
+
+}
+.carousel-item{
+    /* height: 550px; */
+
+}
+.carousel-inner > .item > img {
+    width:50%;
+    max-height:360px;
+    display: block;
+  }
+
+
+
+
 .myName{
     font-family: FredokaOne-Regular;
     font-size: 70px;
@@ -167,14 +189,22 @@ iframe {
     padding: 25px;
 
 }
+.sketch2{
+    max-width: 900px;
+    max-height: 1022px;
+    width: 80%;
+    padding: 25px;
+
+}
 .sketchDesc{
     font-family: Century Gothic, CenturyGothic,AppleGothic,sans-serif;
     max-width: 500px ;
     max-height: 200px;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 0px;
-    padding-left: 25px;
-    padding-right: 25px;
+    text-align: center;
+    /* padding-left: 25px;
+    padding-right: 25px; */
     padding-top: 30px;
     padding-bottom: 30px;
 

@@ -13,6 +13,7 @@ const Navbar = (props) => {
     top: "0",
     position: "fixed",
     display: 'flex',
+    zIndex: '1000'
 
     // border: '1px solid #ff57a6'
   }

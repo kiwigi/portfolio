@@ -6,9 +6,12 @@ import Portfolio from './Portfolio'
 import Resume from './Resume'
 import PortfolioProj1 from "./PortfolioProj1"
 import BobaLockscreen from "./BobaLockscreen"
+import WeakSpot from "./WeakSpot"
 import Tgcc from "./Tgcc"
 import "./styleSheet.css"
 import {  Link } from "react-router-dom";
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -30,6 +33,10 @@ function App() {
           break;
       case '/BobaLockscreen':
             currScreen = <BobaLockscreen />
+            break;
+      case '/WeakSpot':
+        currScreen = <WeakSpot />
+            break;
       case '/Tgcc':
             currScreen = <Tgcc />
           break;
