@@ -12,16 +12,18 @@ function Project(props) {
         padding: '2%',
         display: 'flex',
         flexDirection: 'column',
-        maxWidth: '650px',
+        maxWidth: '600px',
         maxHeight: '500px',
         margin: '10px',
         marginTop: '60px',
         marginBottom: '60px',
         justify: "center",
-        flexWrap: "wrap",
+        
         textDecoration: "none",
         color: "#242424",
-        boxShadow: "10px 10px 15px #b8b8b8"
+        boxShadow: "10px 10px 15px #b8b8b8",
+        overflow: 'scroll',
+        flexDirection: 'column'
         
      
     }
@@ -45,6 +47,7 @@ function Project(props) {
         padding: "1%",
         marginLeft: 'auto',
         marginRight: 'auto',
+        borderRadius: '25px',
         // borderRadius: "50%",
         flexDirection: 'column'
         
@@ -54,11 +57,15 @@ function Project(props) {
 
     const descStyle ={
 
-        maxWidth: "450px",
-        maxHeight: "250px",
-        padding: "1%",
+        maxWidth: "600px",
+        width: '95%',
+        padding: "5%",
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        borderRadius: '25px',
         fontFamily: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif',
-        fontSize: "20px",
+        fontSize: "18px",
+        backgroundColor: 'white',
         textDecoration: "none",
         
     
