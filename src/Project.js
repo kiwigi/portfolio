@@ -7,7 +7,7 @@ function Project(props) {
 
 
     const containerStyle={
-        backgroundColor: "#ffd6e9",
+        
         borderRadius: "25px",
         padding: '2%',
         display: 'flex',
@@ -21,7 +21,6 @@ function Project(props) {
         
         textDecoration: "none",
         color: "#242424",
-        boxShadow: "10px 10px 15px #b8b8b8",
         overflow: 'scroll',
         flexDirection: 'column'
         

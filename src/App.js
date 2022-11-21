@@ -8,6 +8,7 @@ import PortfolioProj1 from "./PortfolioProj1"
 import BobaLockscreen from "./BobaLockscreen"
 import WeakSpot from "./WeakSpot"
 import Tgcc from "./Tgcc"
+import CampusConfessions from './CampusConfessions'
 import "./styleSheet.css"
 import {  Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
@@ -40,6 +41,9 @@ function App() {
       case '/Tgcc':
             currScreen = <Tgcc />
           break;
+     case '/CampusConfessions':
+            currScreen = <CampusConfessions />
+        break;
   }
 
   return (
