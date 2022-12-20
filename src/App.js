@@ -7,6 +7,7 @@ import Resume from './Resume'
 import PortfolioProj1 from "./PortfolioProj1"
 import BobaLockscreen from "./BobaLockscreen"
 import WeakSpot from "./WeakSpot"
+import DeskBuddy from "./DeskBuddy"
 import Tgcc from "./Tgcc"
 import CampusConfessions from './CampusConfessions'
 import "./styleSheet.css"
@@ -44,6 +45,9 @@ function App() {
      case '/CampusConfessions':
             currScreen = <CampusConfessions />
         break;
+    case '/DeskBuddy':
+        currScreen = <DeskBuddy />
+    break;
   }
 
   return (
